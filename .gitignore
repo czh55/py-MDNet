@@ -2,6 +2,7 @@ models/*.mat
 results
 *.pyc
 *.swp
+.idea/
 pretrain/data/
 datasets/OTB_link
 datasets/VOT

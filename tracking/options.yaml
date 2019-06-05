@@ -1,4 +1,4 @@
-use_gpu: true
+use_gpu: False
 
 # model path
 model_path: "models/mdnet_imagenet_vid.pth"

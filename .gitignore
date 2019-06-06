@@ -3,6 +3,7 @@ results
 *.pyc
 *.swp
 .idea/
+.DS_Store
 pretrain/data/
 datasets/OTB_link
 datasets/VOT

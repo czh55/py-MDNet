@@ -159,7 +159,7 @@ def run_mdnet(img_list, init_bbox, gt=None, savefig_dir='', display=False):
     del bbreg_feats
     torch.cuda.empty_cache()
 
-    # Init sample generators for update
+    # Init sample generators for update：这三个是【生成器】，不是产生的数据
     sample_generator = SampleGenerator('gaussian', image.size, opts['trans'], opts['scale'])
     pos_generator = SampleGenerator('gaussian', image.size, opts['trans_pos'], opts['scale_pos'])
     neg_generator = SampleGenerator('uniform', image.size, opts['trans_neg'], opts['scale_neg'])

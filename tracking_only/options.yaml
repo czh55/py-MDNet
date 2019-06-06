@@ -15,17 +15,17 @@ batch_test: 256
 
 # candidates sampling
 n_samples: 256
-trans: 0.6
+trans: 5.6
 scale: 1.05
-trans_limit: 1.5
+trans_limit: 7.5
 
 # training examples sampling
 trans_pos: 0.1
-scale_pos: 1.3
-trans_neg_init: 1
-scale_neg_init: 1.6
+scale_pos: 1.05
+trans_neg_init: 2
+scale_neg_init: 1.8
 trans_neg: 2
-scale_neg: 1.3
+scale_neg: 1.8
 
 # bounding box regression
 n_bbreg: 1000
